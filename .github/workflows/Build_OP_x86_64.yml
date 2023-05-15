@@ -14,7 +14,8 @@ on:
   
 env:
   REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: master
+  #REPO_BRANCH: master
+  REPO_BRANCH: "openwrt-22.03"
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: x86_64_config
   TZ: Asia/Shanghai
