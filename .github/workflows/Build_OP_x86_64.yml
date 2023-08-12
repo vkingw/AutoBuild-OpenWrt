@@ -15,7 +15,7 @@ on:
 env:
   REPO_URL: https://github.com/openwrt/openwrt
   #REPO_BRANCH: master
-  REPO_BRANCH: "openwrt-22.05"
+  REPO_BRANCH: "openwrt-23.05"
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: x86_64_config
   TZ: Asia/Shanghai
@@ -26,7 +26,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v23.05
 
     - name: Initialization environment
       env:
