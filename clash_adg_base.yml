@@ -23,7 +23,6 @@ dns:
     - tls://dns.adguard.com:853
 {% endif %}
 
-{% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-providers:
   new_provider:
@@ -35,8 +34,3 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 300
 rules: ~
-{% else %}
-Proxy: ~
-Proxy Group: ~
-Rule: ~
-{% endif %}
