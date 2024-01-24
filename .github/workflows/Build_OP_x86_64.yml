@@ -15,7 +15,7 @@ on:
 env:
   REPO_URL: https://github.com/openwrt/openwrt
   #REPO_BRANCH: master
-  REPO_BRANCH: "openwrt-22.03"
+  REPO_BRANCH: "main"
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: x86_64_config
   TZ: Asia/Shanghai
@@ -64,7 +64,6 @@ jobs:
       working-directory: ./openwrt
       run: |
         ./scripts/feeds update -a
-        ./scripts/feeds install -a
         ./scripts/feeds install -a
 
     #- name: Import external feeds - passwall
