@@ -23,7 +23,8 @@ overwrite_original_rules = true
 import = "snippets/v_groups.toml"
 
 [[rulesets]]
-import = "snippets/dns_rulesets.toml"
+# import = "snippets/dns_rulesets.toml"
+import = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/dns_rulesets.toml"
 
 # [[template_args]]
 # key = "clash.dns.port"
