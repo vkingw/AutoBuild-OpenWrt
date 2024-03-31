@@ -20,11 +20,9 @@ overwrite_original_rules = true
 #exclude_remarks = []
 
 [[custom_groups]]
-# import = "snippets/v_groups.toml"
 import = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/v_groups.toml"
 
 [[rulesets]]
-# import = "snippets/dns_rulesets.toml"
 import = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/v_rulesets.toml"
 
 # [[template_args]]
