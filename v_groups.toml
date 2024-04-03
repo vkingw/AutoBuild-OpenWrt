@@ -11,6 +11,7 @@ rule = [
     "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
     "[]🌈 United Nations",
+    "[]🌈 CF",
 ]
 
 [[custom_groups]]
@@ -25,6 +26,7 @@ rule = [
     "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
     "[]🌈 United Nations",
+    "[]🌈 CF",
 ]
 
 [[custom_groups]]
@@ -51,6 +53,7 @@ rule = [
     "[]🇯🇵 JP",
     "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
+    "[]🌈 CF",
     "[]DIRECT",
 ]
 
@@ -65,6 +68,7 @@ rule = [
     "[]🇯🇵 JP",
     "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
+    "[]🌈 CF",
     "[]DIRECT",
 ]
 
@@ -80,6 +84,7 @@ rule = [
     "[]🇯🇵 JP",
     "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
+    "[]🌈 CF",
     "[]DIRECT",
 ]
 
@@ -94,6 +99,7 @@ rule = [
     "[]🇯🇵 JP",
     "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
+    "[]🌈 CF",
     "[]DIRECT",
 ]
 
@@ -125,7 +131,7 @@ rule = [
 name = "⏱ Speedtest"
 type = "select"
 rule = [".*", "[]DIRECT"]
-use = ["new_1", "new_2", "nfw_1", "nfw_2"]
+use = ["new_1", "new_2", "nfw_1", "nfw_2", "cf"]
 
 [[custom_groups]]
 name = "🛑 Global interception"
@@ -215,4 +221,11 @@ rule = [
     "DE-.*",
     "UK.*",
 ]
+lazy = true
+
+
+[[custom_groups]]
+name = "🌈 CF"
+type = "select"
+use = ["cf"]
 lazy = true
