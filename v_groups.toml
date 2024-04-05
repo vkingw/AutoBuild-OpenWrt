@@ -72,7 +72,6 @@ rule = [
     "[]DIRECT",
 ]
 
-
 [[custom_groups]]
 name = "🎮 Game"
 type = "select"
@@ -102,7 +101,6 @@ rule = [
     "[]🌈 CF",
     "[]DIRECT",
 ]
-
 
 [[custom_groups]]
 name = "🌍 Domestic media"
@@ -169,6 +167,12 @@ use = ["nfw_1", "nfw_2"]
 lazy = true
 
 [[custom_groups]]
+name = "🌈 CF"
+type = "select"
+use = ["cf"]
+lazy = true
+
+[[custom_groups]]
 name = "🇹🇼 TW"
 type = "select"
 rule = ["台|新北|彰化|TW|Taiwan"]
@@ -221,11 +225,4 @@ rule = [
     "DE-.*",
     "UK.*",
 ]
-lazy = true
-
-
-[[custom_groups]]
-name = "🌈 CF"
-type = "select"
-use = ["cf"]
 lazy = true
