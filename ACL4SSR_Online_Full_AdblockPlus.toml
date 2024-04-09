@@ -22,9 +22,9 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEas
 group = "🛑 Global_interception"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
 
-[[rulesets]]
-group = "️🛑 Global_interception"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list"
+# [[rulesets]]
+# group = "️🛑 Global_interception"
+# ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list"
 
 [[rulesets]]
 group = "🗽 Proxies"
