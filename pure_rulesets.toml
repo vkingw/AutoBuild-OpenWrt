@@ -1,0 +1,8 @@
+[[rulesets]]
+group = "DIRECT"
+# group = "🎯 Domestic"
+ruleset = "[]GEOIP,CN,no-resolve"
+
+[[rulesets]]
+group = "🐟 Slipped"
+ruleset = "[]FINAL"
