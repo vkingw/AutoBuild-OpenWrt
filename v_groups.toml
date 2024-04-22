@@ -30,19 +30,6 @@ rule = [
 ]
 
 [[custom_groups]]
-name = "💬 OpenAI"
-type = "select"
-rule = [
-    "[]🇺🇸 US",
-    "[]🇹🇼 TW",
-    "[]🇭🇰 HK",
-    "[]🇸🇬 SG",
-    "[]🇯🇵 JP",
-    "[]🇺🇸 NEW",
-    "[]🇺🇸 NFW",
-]
-
-[[custom_groups]]
 name = "⚡ Google"
 type = "select"
 rule = [
@@ -55,6 +42,19 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🌈 United Nations",
     "[]🌈 CF",
+]
+
+[[custom_groups]]
+name = "💬 OpenAI"
+type = "select"
+rule = [
+    "[]🇺🇸 US",
+    "[]🇹🇼 TW",
+    "[]🇭🇰 HK",
+    "[]🇸🇬 SG",
+    "[]🇯🇵 JP",
+    "[]🇺🇸 NEW",
+    "[]🇺🇸 NFW",
 ]
 
 [[custom_groups]]
