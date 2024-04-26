@@ -35,7 +35,7 @@ group = "🎯 Domestic"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
 
 [[rulesets]]
-group = "🎯 Domestic"
+group = "🎮 Game"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
 
 [[rulesets]]
