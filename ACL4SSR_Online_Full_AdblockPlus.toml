@@ -110,9 +110,9 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Rulese
 group = "🌍 Domestic_media"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list"
 
-[[rulesets]]
-group = "🌍 Foreign_media"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+# [[rulesets]]
+# group = "🌍 Foreign_media"
+# ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
 
 [[rulesets]]
 group = "🗽 Proxies"
