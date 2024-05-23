@@ -126,7 +126,8 @@ rule = ["[]DIRECT", "[]🇹🇼 TW", "[]🇭🇰 HK"]
 [[custom_groups]]
 name = "🎥 NETFLIX"
 type = "select"
-rule = ["[]🇺🇸 US", "[]🇹🇼 TW", "[]🇭🇰 HK", "[]🇸🇬 SG", "[]🇯🇵 JP"]
+rule = ["港|台|美|新加坡|日"]
+# rule = ["[]🇺🇸 US", "[]🇹🇼 TW", "[]🇭🇰 HK", "[]🇸🇬 SG", "[]🇯🇵 JP"]
 
 [[custom_groups]]
 name = "💰 PayPal"
