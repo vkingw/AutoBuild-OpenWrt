@@ -39,23 +39,23 @@ group = "🎮 Game"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
 
 [[rulesets]]
-group = "🗽 Proxies"
+group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list"
 
 [[rulesets]]
-group = "🗽 Proxies"
+group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list"
 
 [[rulesets]]
-group = "🗽 Proxies"
+group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
 
 [[rulesets]]
-group = "🗽 Proxies"
+group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
 
 [[rulesets]]
-group = "🗽 Proxies"
+group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
 
 [[rulesets]]
