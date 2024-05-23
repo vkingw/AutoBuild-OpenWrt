@@ -59,6 +59,20 @@ rule = [
 ]
 
 [[custom_groups]]
+name = " & Ⓜ️"
+type = "select"
+rule = [
+    "[]🇺🇸 US",
+    "[]🇹🇼 TW",
+    "[]🇭🇰 HK",
+    "[]🇸🇬 SG",
+    "[]🇯🇵 JP",
+    "[]🇺🇸 NEW",
+    "[]🇺🇸 NFW",
+    "[]🌈 CF",
+]
+
+[[custom_groups]]
 name = "👑 Emby"
 type = "select"
 rule = [
