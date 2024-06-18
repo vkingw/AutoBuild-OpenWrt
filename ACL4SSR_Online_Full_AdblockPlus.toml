@@ -4,7 +4,7 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Rulese
 
 [[rulesets]]
 group = "🇺🇸 US"
-ruleset = "duoligo"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/duplingo.list"
 
 [[rulesets]]
 group = "👑 Emby"
@@ -12,7 +12,7 @@ ruleset = "emby"
 
 [[rulesets]]
 group = "🇺🇸 US"
-ruleset = "my"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/myrules.list"
 
 [[rulesets]]
 group = "🎯 Domestic"
