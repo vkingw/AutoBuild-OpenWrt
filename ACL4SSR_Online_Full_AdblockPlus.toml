@@ -1,4 +1,20 @@
 [[rulesets]]
+group = "💬 OpenAI"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
+
+[[rulesets]]
+group = "🇺🇸 US"
+ruleset = "duoligo"
+
+[[rulesets]]
+group = "👑 Emby"
+ruleset = "emby"
+
+[[rulesets]]
+group = "🇺🇸 US"
+ruleset = "my"
+
+[[rulesets]]
 group = "🎯 Domestic"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
 
@@ -13,6 +29,10 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.
 [[rulesets]]
 group = "🛑 Global_interception"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
+
+[[rulesets]]
+group = "🛑 Global_interception"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list"
 
 [[rulesets]]
 group = "🛑 Global_interception"
