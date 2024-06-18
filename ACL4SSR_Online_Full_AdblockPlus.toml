@@ -8,7 +8,7 @@ ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/dup
 
 [[rulesets]]
 group = "👑 Emby"
-ruleset = "emby"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/emby.list"
 
 [[rulesets]]
 group = "🇺🇸 US"
