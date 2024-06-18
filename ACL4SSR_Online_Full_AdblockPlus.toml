@@ -15,6 +15,10 @@ group = "🇺🇸 US"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/myrules.list"
 
 [[rulesets]]
+group = "⏱ Speedtest"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/speedtest.list"
+
+[[rulesets]]
 group = "🎯 Domestic"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
 
