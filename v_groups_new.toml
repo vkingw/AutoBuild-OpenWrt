@@ -8,7 +8,6 @@ rule = [
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
     "[]🇰🇷 KR",
-    "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
     "[]🌈 United Nations",
     "[]🌈 CF",
@@ -23,7 +22,6 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
-    "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
     "[]🌈 United Nations",
     "[]🌈 CF",
@@ -38,7 +36,6 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
-    "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
     "[]🌈 United Nations",
     "[]🌈 CF",
@@ -53,7 +50,6 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
-    "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
     "[]🌈 CF",
 ]
@@ -67,7 +63,6 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
-    "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
     "[]🌈 CF",
 ]
@@ -81,7 +76,6 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
-    "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
     "[]🌈 CF",
     "[]DIRECT",
@@ -96,7 +90,6 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
-    "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
     "[]🌈 CF",
     "[]DIRECT",
@@ -111,7 +104,6 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
-    "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
     "[]🌈 CF",
     "[]DIRECT",
@@ -153,7 +145,6 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
-    "[]🇺🇸 NEW",
     "[]🇺🇸 NFW",
 ]
 
@@ -161,7 +152,7 @@ rule = [
 name = "⏱ Speedtest"
 type = "select"
 rule = [".*", "[]DIRECT"]
-use = ["new_1", "new_2", "nfw_1", "nfw_2", "cf"]
+use = ["nfw_1", "nfw_2", "cf"]
 
 [[custom_groups]]
 name = "🛑 Global_interception"
@@ -184,12 +175,6 @@ type = "select"
 rule = [
     "(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)",
 ]
-lazy = true
-
-[[custom_groups]]
-name = "🇺🇸 NEW"
-type = "select"
-use = ["new_1", "new_2"]
 lazy = true
 
 [[custom_groups]]
