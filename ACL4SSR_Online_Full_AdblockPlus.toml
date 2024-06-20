@@ -3,7 +3,7 @@ group = "💬 OpenAI"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
 
 [[rulesets]]
-group = "🇺🇸 US"
+group = "🗽 Proxies"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/duplingo.list"
 
 [[rulesets]]
@@ -11,7 +11,7 @@ group = "👑 Emby"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/emby.list"
 
 [[rulesets]]
-group = "🇺🇸 US"
+group = "🗽 Proxies"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/myrules.list"
 
 [[rulesets]]
@@ -46,16 +46,12 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEas
 group = "🛑 Global_interception"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
 
-# [[rulesets]]
-# group = "🛑 Global_interception"
-# ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list"
-
 [[rulesets]]
 group = "⚡ Google"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list"
 
 [[rulesets]]
-group = "🎯 Domestic"
+group = "⚡ Google"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
 
 [[rulesets]]
@@ -81,10 +77,6 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.
 [[rulesets]]
 group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
-
-[[rulesets]]
-group = "💬 OpenAI"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
 
 [[rulesets]]
 group = "🎯 Domestic"
