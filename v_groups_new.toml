@@ -8,6 +8,7 @@ rule = [
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
     "[]🇰🇷 KR",
+    "[]🇺🇸 DMIT",
     "[]🇺🇸 NFW",
     "[]🌈 United Nations",
     "[]🌈 CF",
@@ -22,6 +23,7 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
+    "[]🇺🇸 DMIT",
     "[]🇺🇸 NFW",
     "[]🌈 United Nations",
     "[]🌈 CF",
@@ -36,6 +38,7 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
+    "[]🇺🇸 DMIT",
     "[]🇺🇸 NFW",
     "[]🌈 United Nations",
     "[]🌈 CF",
@@ -50,6 +53,7 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
+    "[]🇺🇸 DMIT",
     "[]🇺🇸 NFW",
     "[]🌈 CF",
 ]
@@ -63,6 +67,7 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
+    "[]🇺🇸 DMIT",
     "[]🇺🇸 NFW",
     "[]🌈 CF",
 ]
@@ -76,6 +81,7 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
+    "[]🇺🇸 DMIT",
     "[]🇺🇸 NFW",
     "[]🌈 CF",
     "[]DIRECT",
@@ -90,6 +96,7 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
+    "[]🇺🇸 DMIT",
     "[]🇺🇸 NFW",
     "[]🌈 CF",
     "[]DIRECT",
@@ -104,6 +111,7 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
+    "[]🇺🇸 DMIT",
     "[]🇺🇸 NFW",
     "[]🌈 CF",
     "[]DIRECT",
@@ -119,6 +127,7 @@ rule = ["港|台|美|新加坡|日"]
 #     "[]🇭🇰 HK",
 #     "[]🇸🇬 SG",
 #     "[]🇯🇵 JP",
+#     "[]🇺🇸 DMIT",
 #     "[]🇺🇸 NEW",
 #     "[]🇺🇸 NFW",
 #     "[]🌈 CF",
@@ -134,7 +143,7 @@ rule = ["[]DIRECT", "[]🇹🇼 TW", "[]🇭🇰 HK"]
 name = "🎥 NETFLIX"
 type = "select"
 rule = ["港|台|美|新加坡|日"]
-# rule = ["[]🇺🇸 US", "[]🇹🇼 TW", "[]🇭🇰 HK", "[]🇸🇬 SG", "[]🇯🇵 JP"]
+# rule = ["[]🇺🇸 US", "[]🇹🇼 TW", "[]🇭🇰 HK", "[]🇸🇬 SG", "[]🇯🇵 JP", "[]🇺🇸 DMIT"]
 
 [[custom_groups]]
 name = "💰 PayPal"
@@ -145,6 +154,7 @@ rule = [
     "[]🇭🇰 HK",
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
+    "[]🇺🇸 DMIT",
     "[]🇺🇸 NFW",
 ]
 
@@ -152,7 +162,7 @@ rule = [
 name = "⏱ Speedtest"
 type = "select"
 rule = [".*", "[]DIRECT"]
-use = ["nfw_1", "nfw_2", "cf"]
+use = ["nfw_1", "nfw_2", "dmit_1", "dmit_2", cf"]
 
 [[custom_groups]]
 name = "🛑 Global_interception"
@@ -175,6 +185,12 @@ type = "select"
 rule = [
     "(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)",
 ]
+lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 DMIT"
+type = "select"
+use = ["dmit_1", "dmit_2"]
 lazy = true
 
 [[custom_groups]]
