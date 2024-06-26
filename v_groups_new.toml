@@ -11,7 +11,7 @@ rule = [
     "[]🇺🇸 DMIT",
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance,
+    "[]🇺🇸 NFW Balance",
     "[]🌈 United Nations",
     "[]🌈 CF",
 ]
@@ -28,7 +28,7 @@ rule = [
     "[]🇺🇸 DMIT",
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance,
+    "[]🇺🇸 NFW Balance",
     "[]🌈 United Nations",
     "[]🌈 CF",
 ]
@@ -45,7 +45,7 @@ rule = [
     "[]🇺🇸 DMIT",
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance,
+    "[]🇺🇸 NFW Balance",
     "[]🌈 United Nations",
     "[]🌈 CF",
 ]
@@ -62,7 +62,7 @@ rule = [
     "[]🇺🇸 DMIT",
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance,
+    "[]🇺🇸 NFW Balance",
     "[]🌈 CF",
 ]
 
@@ -78,7 +78,7 @@ rule = [
     "[]🇺🇸 DMIT",
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance,
+    "[]🇺🇸 NFW Balance",
     "[]🌈 CF",
 ]
 
@@ -94,7 +94,7 @@ rule = [
     "[]🇺🇸 DMIT",
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance,
+    "[]🇺🇸 NFW Balance",
     "[]🌈 CF",
     "[]DIRECT",
 ]
@@ -111,7 +111,7 @@ rule = [
     "[]🇺🇸 DMIT",
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance,
+    "[]🇺🇸 NFW Balance",
     "[]🌈 CF",
     "[]DIRECT",
 ]
@@ -128,7 +128,7 @@ rule = [
     "[]🇺🇸 DMIT",
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance,
+    "[]🇺🇸 NFW Balance",
     "[]🌈 CF",
     "[]DIRECT",
 ]
@@ -146,7 +146,7 @@ rule = ["港|台|美|新加坡|日"]
     # "[]🇺🇸 DMIT",
     # "[]🇺🇸 DMIT Balance",
     # "[]🇺🇸 NFW",
-    # "[]🇺🇸 NFW Balance,
+    # "[]🇺🇸 NFW Balance",
 #     "[]🌈 CF",
 #     "[]DIRECT",
 # ]
@@ -174,7 +174,7 @@ rule = [
     "[]🇺🇸 DMIT",
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance,
+    "[]🇺🇸 NFW Balance",
 ]
 
 [[custom_groups]]
