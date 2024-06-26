@@ -9,7 +9,7 @@ rule = [
     "[]🇯🇵 JP",
     "[]🇰🇷 KR",
     "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance"
+    "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance,
     "[]🌈 United Nations",
@@ -26,7 +26,7 @@ rule = [
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
     "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance"
+    "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance,
     "[]🌈 United Nations",
@@ -43,7 +43,7 @@ rule = [
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
     "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance"
+    "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance,
     "[]🌈 United Nations",
@@ -60,7 +60,7 @@ rule = [
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
     "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance"
+    "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance,
     "[]🌈 CF",
@@ -76,7 +76,7 @@ rule = [
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
     "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance"
+    "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance,
     "[]🌈 CF",
@@ -92,7 +92,7 @@ rule = [
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
     "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance"
+    "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance,
     "[]🌈 CF",
@@ -109,7 +109,7 @@ rule = [
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
     "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance"
+    "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance,
     "[]🌈 CF",
@@ -126,7 +126,7 @@ rule = [
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
     "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance"
+    "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance,
     "[]🌈 CF",
@@ -144,7 +144,7 @@ rule = ["港|台|美|新加坡|日"]
 #     "[]🇸🇬 SG",
 #     "[]🇯🇵 JP",
     # "[]🇺🇸 DMIT",
-    # "[]🇺🇸 DMIT Balance"
+    # "[]🇺🇸 DMIT Balance",
     # "[]🇺🇸 NFW",
     # "[]🇺🇸 NFW Balance,
 #     "[]🌈 CF",
@@ -172,7 +172,7 @@ rule = [
     "[]🇸🇬 SG",
     "[]🇯🇵 JP",
     "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance"
+    "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance,
 ]
