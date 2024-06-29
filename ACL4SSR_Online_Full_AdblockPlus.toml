@@ -11,7 +11,7 @@ group = "👑 Emby"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/emby.list"
 
 [[rulesets]]
-group = "🗽 Proxies"
+group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/myrules.list"
 
 [[rulesets]]
