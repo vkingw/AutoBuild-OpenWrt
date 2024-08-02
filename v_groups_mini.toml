@@ -1,0 +1,227 @@
+[[custom_groups]]
+name = "🗽 Proxies"
+type = "select"
+rule = [
+    "[]🇺🇸 DMIT",
+    "[]🇺🇸 DMIT Balance",
+    "[]🇺🇸 NFW",
+    "[]🇺🇸 NFW Balance",
+    "[]🌈 CF PW",
+    "[]🌈 CF OUT WALL"
+]
+
+[[custom_groups]]
+name = "📽 YouTube"
+type = "select"
+rule = [
+    "[]🇺🇸 DMIT",
+    "[]🇺🇸 DMIT Balance",
+    "[]🇺🇸 NFW",
+    "[]🇺🇸 NFW Balance",
+    "[]🌈 CF PW",
+    "[]🌈 CF OUT WALL"
+]
+
+[[custom_groups]]
+name = "⚡ Google"
+type = "select"
+rule = [
+    "[]🇺🇸 DMIT",
+    "[]🇺🇸 DMIT Balance",
+    "[]🇺🇸 NFW",
+    "[]🇺🇸 NFW Balance",
+    "[]🌈 CF PW",
+    "[]🌈 CF OUT WALL"
+]
+
+[[custom_groups]]
+name = "💬 OpenAI"
+type = "select"
+rule = [
+    "[]🇺🇸 DMIT",
+    "[]🇺🇸 DMIT Balance",
+    "[]🇺🇸 NFW",
+    "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 GPT",
+    "[]🇺🇸 GPT Balance",
+    "[]🌈 CF PW",
+    "[]🌈 CF OUT WALL"
+]
+
+[[custom_groups]]
+name = " & Ⓜ️"
+type = "select"
+rule = [
+    "[]🇺🇸 DMIT",
+    "[]🇺🇸 DMIT Balance",
+    "[]🇺🇸 NFW",
+    "[]🇺🇸 NFW Balance",
+    "[]🌈 CF PW",
+    "[]🌈 CF OUT WALL"
+]
+
+[[custom_groups]]
+name = "👑 Emby"
+type = "select"
+rule = [
+    "[]🇺🇸 DMIT",
+    "[]🇺🇸 DMIT Balance",
+    "[]🇺🇸 NFW",
+    "[]🇺🇸 NFW Balance",
+    "[]🌈 CF PW",
+    "[]🌈 CF OUT WALL"
+    "[]DIRECT",
+]
+
+[[custom_groups]]
+name = "🎮 Switch"
+type = "select"
+rule = [
+    "[]🇺🇸 DMIT",
+    "[]🇺🇸 DMIT Balance",
+    "[]🇺🇸 NFW",
+    "[]🇺🇸 NFW Balance",
+    "[]🌈 CF PW",
+    "[]🌈 CF OUT WALL"
+    "[]DIRECT",
+]
+
+[[custom_groups]]
+name = "🎮 Game"
+type = "select"
+rule = [
+    "[]🇺🇸 DMIT",
+    "[]🇺🇸 DMIT Balance",
+    "[]🇺🇸 NFW",
+    "[]🇺🇸 NFW Balance",
+    "[]🌈 CF PW",
+    "[]🌈 CF OUT WALL"
+    "[]DIRECT",
+]
+
+[[custom_groups]]
+name = "🌍 Foreign_media"
+type = "select"
+rule = [
+    "[]🇺🇸 DMIT",
+    "[]🇺🇸 DMIT Balance",
+    "[]🇺🇸 NFW",
+    "[]🇺🇸 NFW Balance",
+    "[]🌈 CF PW",
+    "[]🌈 CF OUT WALL"
+    "[]DIRECT",
+]
+
+[[custom_groups]]
+name = "🌍 Domestic_media"
+type = "select"
+rule = [
+    "[]DIRECT",     
+    "[]🌈 CF PW",
+    "[]🌈 CF OUT WALL"
+    ]
+
+[[custom_groups]]
+name = "🎥 NETFLIX"
+type = "select"
+rule = [
+    "[]🇺🇸 DMIT",
+    "[]🇺🇸 DMIT Balance",
+    "[]🇺🇸 NFW",
+    "[]🇺🇸 NFW Balance",
+    "[]🌈 CF PW",
+    "[]🌈 CF OUT WALL"
+]
+
+[[custom_groups]]
+name = "💰 PayPal"
+type = "select"
+rule = [
+    "[]🇺🇸 DMIT",
+    "[]🇺🇸 DMIT Balance",
+    "[]🇺🇸 NFW",
+    "[]🇺🇸 NFW Balance",
+    "[]🌈 CF PW",
+    "[]🌈 CF OUT WALL"
+]
+
+[[custom_groups]]
+name = "⏱ Speedtest"
+type = "select"
+rule = [".*", "[]DIRECT"]
+use = ["nfw_1", "nfw_2", "dmit_1", "dmit_2", "cf_pw", "cf_out"]
+
+[[custom_groups]]
+name = "🛑 Global_interception"
+type = "select"
+rule = ["[]REJECT", "[]DIRECT"]
+
+[[custom_groups]]
+name = "🎯 Domestic"
+type = "select"
+rule = ["[]DIRECT"]
+
+[[custom_groups]]
+name = "🐟 Slipped"
+type = "select"
+rule = ["[]🗽 Proxies", "[]DIRECT"]
+
+[[custom_groups]]
+name = "🇺🇸 DMIT"
+type = "select"
+use = ["dmit_1", "dmit_2"]
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 DMIT Balance"
+type = "load-balance"
+use = ["dmit_1", "dmit_2"]
+# strategy = "round-robin"
+strategy = "consistent-hashing"
+url = "https://www.gstatic.com/generate_204"
+interval = 300
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 NFW"
+type = "select"
+use = ["nfw_1", "nfw_2"]
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 NFW Balance"
+type = "load-balance"
+use = ["nfw_1", "nfw_2"]
+# strategy = "round-robin"
+strategy = "consistent-hashing"
+url = "https://www.gstatic.com/generate_204"
+interval = 300
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 GPT"
+type = "select"
+use = ["gpt_1", "gpt_2"]
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 GPT Balance"
+type = "load-balance"
+use = ["gpt_1", "gpt_2"]
+# strategy = "round-robin"
+strategy = "consistent-hashing"
+url = "https://www.gstatic.com/generate_204"
+interval = 300
+# lazy = true
+
+[[custom_groups]]
+name = "🌈 CF PW"
+type = "select"
+use = ["cf_pw"]
+# lazy = true
+
+[[custom_groups]]
+name = "🌈 CF OUT WALL"
+type = "select"
+use = ["cf_out"]
+# lazy = true
