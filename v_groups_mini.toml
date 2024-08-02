@@ -57,7 +57,7 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance",
     "[]🌈 CF PW",
-    "[]🌈 CF OUT WALL"
+    "[]🌈 CF OUT WALL",
 ]
 
 [[custom_groups]]
@@ -69,7 +69,7 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance",
     "[]🌈 CF PW",
-    "[]🌈 CF OUT WALL"
+    "[]🌈 CF OUT WALL",
     "[]DIRECT",
 ]
 
@@ -82,7 +82,7 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance",
     "[]🌈 CF PW",
-    "[]🌈 CF OUT WALL"
+    "[]🌈 CF OUT WALL",
     "[]DIRECT",
 ]
 
@@ -95,7 +95,7 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance",
     "[]🌈 CF PW",
-    "[]🌈 CF OUT WALL"
+    "[]🌈 CF OUT WALL",
     "[]DIRECT",
 ]
 
@@ -108,7 +108,7 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance",
     "[]🌈 CF PW",
-    "[]🌈 CF OUT WALL"
+    "[]🌈 CF OUT WALL",
     "[]DIRECT",
 ]
 
