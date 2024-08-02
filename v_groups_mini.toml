@@ -201,13 +201,13 @@ interval = 300
 [[custom_groups]]
 name = "🇺🇸 GPT"
 type = "select"
-use = ["gpt_1", "gpt_2"]
+use = ["gpt_1"]
 # lazy = true
 
 [[custom_groups]]
 name = "🇺🇸 GPT Balance"
 type = "load-balance"
-use = ["gpt_1", "gpt_2"]
+use = ["gpt_1"]
 # strategy = "round-robin"
 strategy = "consistent-hashing"
 url = "https://www.gstatic.com/generate_204"
