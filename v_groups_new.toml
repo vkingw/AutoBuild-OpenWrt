@@ -19,7 +19,8 @@ rule = [
     "[]🇯🇵 YX",
     "[]🇯🇵 YX Balance",
     "[]🌈 United Nations",
-    "[]🌈 CF",
+    "[]🌈 CF OUT",
+    "[]🌈 CF OUT WALL
 ]
 
 [[custom_groups]]
@@ -42,7 +43,8 @@ rule = [
     "[]🇯🇵 YX",
     "[]🇯🇵 YX Balance",
     "[]🌈 United Nations",
-    "[]🌈 CF",
+    "[]🌈 CF OUT",
+    "[]🌈 CF OUT WALL
 ]
 
 [[custom_groups]]
@@ -65,7 +67,8 @@ rule = [
     "[]🇯🇵 YX",
     "[]🇯🇵 YX Balance",
     "[]🌈 United Nations",
-    "[]🌈 CF",
+    "[]🌈 CF OUT",
+    "[]🌈 CF OUT WALL
 ]
 
 [[custom_groups]]
@@ -87,7 +90,8 @@ rule = [
     "[]🇺🇸 GPT Balance",
     "[]🇯🇵 YX",
     "[]🇯🇵 YX Balance",
-    "[]🌈 CF",
+    "[]🌈 CF OUT",
+    "[]🌈 CF OUT WALL
 ]
 
 [[custom_groups]]
@@ -109,7 +113,8 @@ rule = [
     "[]🇺🇸 GPT Balance",
     "[]🇯🇵 YX",
     "[]🇯🇵 YX Balance",
-    "[]🌈 CF",
+    "[]🌈 CF OUT",
+    "[]🌈 CF OUT WALL
 ]
 
 [[custom_groups]]
@@ -131,7 +136,8 @@ rule = [
     "[]🇺🇸 GPT Balance",
     "[]🇯🇵 YX",
     "[]🇯🇵 YX Balance",
-    "[]🌈 CF",
+    "[]🌈 CF OUT",
+    "[]🌈 CF OUT WALL
     "[]DIRECT",
 ]
 
@@ -154,7 +160,8 @@ rule = [
     "[]🇺🇸 GPT Balance",
     "[]🇯🇵 YX",
     "[]🇯🇵 YX Balance",
-    "[]🌈 CF",
+    "[]🌈 CF OUT",
+    "[]🌈 CF OUT WALL
     "[]DIRECT",
 ]
 
@@ -177,7 +184,8 @@ rule = [
     "[]🇺🇸 GPT Balance",
     "[]🇯🇵 YX",
     "[]🇯🇵 YX Balance",
-    "[]🌈 CF",
+    "[]🌈 CF OUT",
+    "[]🌈 CF OUT WALL
     "[]DIRECT",
 ]
 
@@ -341,9 +349,15 @@ interval = 300
 # lazy = true
 
 [[custom_groups]]
-name = "🌈 CF"
+name = "🌈 CF PW"
 type = "select"
-use = ["cf"]
+use = ["cf_pw"]
+# lazy = true
+
+[[custom_groups]]
+name = "🌈 CF OUT WALL"
+type = "select"
+use = ["cf_out"]
 # lazy = true
 
 [[custom_groups]]
