@@ -20,7 +20,7 @@ rule = [
     "[]🇯🇵 YX Balance",
     "[]🌈 United Nations",
     "[]🌈 CF OUT",
-    "[]🌈 CF OUT WALL
+    "[]🌈 CF OUT WALL"
 ]
 
 [[custom_groups]]
@@ -44,7 +44,7 @@ rule = [
     "[]🇯🇵 YX Balance",
     "[]🌈 United Nations",
     "[]🌈 CF OUT",
-    "[]🌈 CF OUT WALL
+    "[]🌈 CF OUT WALL"
 ]
 
 [[custom_groups]]
@@ -68,7 +68,7 @@ rule = [
     "[]🇯🇵 YX Balance",
     "[]🌈 United Nations",
     "[]🌈 CF OUT",
-    "[]🌈 CF OUT WALL
+    "[]🌈 CF OUT WALL"
 ]
 
 [[custom_groups]]
@@ -91,7 +91,7 @@ rule = [
     "[]🇯🇵 YX",
     "[]🇯🇵 YX Balance",
     "[]🌈 CF OUT",
-    "[]🌈 CF OUT WALL
+    "[]🌈 CF OUT WALL"
 ]
 
 [[custom_groups]]
@@ -114,7 +114,7 @@ rule = [
     "[]🇯🇵 YX",
     "[]🇯🇵 YX Balance",
     "[]🌈 CF OUT",
-    "[]🌈 CF OUT WALL
+    "[]🌈 CF OUT WALL"
 ]
 
 [[custom_groups]]
@@ -137,7 +137,7 @@ rule = [
     "[]🇯🇵 YX",
     "[]🇯🇵 YX Balance",
     "[]🌈 CF OUT",
-    "[]🌈 CF OUT WALL
+    "[]🌈 CF OUT WALL"
     "[]DIRECT",
 ]
 
@@ -161,7 +161,7 @@ rule = [
     "[]🇯🇵 YX",
     "[]🇯🇵 YX Balance",
     "[]🌈 CF OUT",
-    "[]🌈 CF OUT WALL
+    "[]🌈 CF OUT WALL"
     "[]DIRECT",
 ]
 
@@ -185,14 +185,27 @@ rule = [
     "[]🇯🇵 YX",
     "[]🇯🇵 YX Balance",
     "[]🌈 CF OUT",
-    "[]🌈 CF OUT WALL
+    "[]🌈 CF OUT WALL"
     "[]DIRECT",
 ]
 
 [[custom_groups]]
 name = "🌍 Foreign_media"
 type = "select"
-rule = ["港|台|美|新加坡|日"]
+rule = ["港|台|美|新加坡|日",
+    "[]🇺🇸 DMIT",
+    "[]🇺🇸 DMIT Balance",
+    "[]🇺🇸 NFW",
+    "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone",
+    "[]🇺🇸 Cloudcone Balance",
+    "[]🇺🇸 GPT",
+    "[]🇺🇸 GPT Balance",
+    "[]🇯🇵 YX",
+    "[]🇯🇵 YX Balance",
+    "[]🌈 CF OUT",
+    "[]🌈 CF OUT WALL"
+]
 # rule = [
 #     "[]🇺🇸 US",
 #     "[]🇹🇼 TW",
