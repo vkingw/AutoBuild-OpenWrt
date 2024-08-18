@@ -331,7 +331,7 @@ use = ["yx"]
 # lazy = true
 
 [[custom_groups]]
-name = ""🇯🇵 YX Balance"
+name = "🇯🇵 YX Balance"
 type = "load-balance"
 use = ["yx"]
 # strategy = "round-robin"
