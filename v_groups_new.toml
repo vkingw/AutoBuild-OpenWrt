@@ -12,6 +12,12 @@ rule = [
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone",
+    "[]🇺🇸 Cloudcone Balance",
+    "[]🇺🇸 GPT",
+    "[]🇺🇸 GPT Balance",
+    "[]🇯🇵 YX",
+    "[]🇯🇵 YX Balance",
     "[]🌈 United Nations",
     "[]🌈 CF",
 ]
@@ -29,6 +35,12 @@ rule = [
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone",
+    "[]🇺🇸 Cloudcone Balance",
+    "[]🇺🇸 GPT",
+    "[]🇺🇸 GPT Balance",
+    "[]🇯🇵 YX",
+    "[]🇯🇵 YX Balance",
     "[]🌈 United Nations",
     "[]🌈 CF",
 ]
@@ -46,6 +58,12 @@ rule = [
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone",
+    "[]🇺🇸 Cloudcone Balance",
+    "[]🇺🇸 GPT",
+    "[]🇺🇸 GPT Balance",
+    "[]🇯🇵 YX",
+    "[]🇯🇵 YX Balance",
     "[]🌈 United Nations",
     "[]🌈 CF",
 ]
@@ -63,6 +81,12 @@ rule = [
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone",
+    "[]🇺🇸 Cloudcone Balance",
+    "[]🇺🇸 GPT",
+    "[]🇺🇸 GPT Balance",
+    "[]🇯🇵 YX",
+    "[]🇯🇵 YX Balance",
     "[]🌈 CF",
 ]
 
@@ -79,6 +103,12 @@ rule = [
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone",
+    "[]🇺🇸 Cloudcone Balance",
+    "[]🇺🇸 GPT",
+    "[]🇺🇸 GPT Balance",
+    "[]🇯🇵 YX",
+    "[]🇯🇵 YX Balance",
     "[]🌈 CF",
 ]
 
@@ -95,6 +125,12 @@ rule = [
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone",
+    "[]🇺🇸 Cloudcone Balance",
+    "[]🇺🇸 GPT",
+    "[]🇺🇸 GPT Balance",
+    "[]🇯🇵 YX",
+    "[]🇯🇵 YX Balance",
     "[]🌈 CF",
     "[]DIRECT",
 ]
@@ -112,6 +148,12 @@ rule = [
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone",
+    "[]🇺🇸 Cloudcone Balance",
+    "[]🇺🇸 GPT",
+    "[]🇺🇸 GPT Balance",
+    "[]🇯🇵 YX",
+    "[]🇯🇵 YX Balance",
     "[]🌈 CF",
     "[]DIRECT",
 ]
@@ -129,6 +171,12 @@ rule = [
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone",
+    "[]🇺🇸 Cloudcone Balance",
+    "[]🇺🇸 GPT",
+    "[]🇺🇸 GPT Balance",
+    "[]🇯🇵 YX",
+    "[]🇯🇵 YX Balance",
     "[]🌈 CF",
     "[]DIRECT",
 ]
@@ -175,6 +223,12 @@ rule = [
     "[]🇺🇸 DMIT Balance",
     "[]🇺🇸 NFW",
     "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone",
+    "[]🇺🇸 Cloudcone Balance",
+    "[]🇺🇸 GPT",
+    "[]🇺🇸 GPT Balance",
+    "[]🇯🇵 YX",
+    "[]🇯🇵 YX Balance",
 ]
 
 [[custom_groups]]
@@ -209,13 +263,13 @@ rule = [
 [[custom_groups]]
 name = "🇺🇸 DMIT"
 type = "select"
-use = ["dmit_1", "dmit_2"]
+use = ["dmit"]
 # lazy = true
 
 [[custom_groups]]
 name = "🇺🇸 DMIT Balance"
 type = "load-balance"
-use = ["dmit_1", "dmit_2"]
+use = ["dmit"]
 # strategy = "round-robin"
 strategy = "consistent-hashing"
 url = "https://www.gstatic.com/generate_204"
@@ -225,13 +279,61 @@ interval = 300
 [[custom_groups]]
 name = "🇺🇸 NFW"
 type = "select"
-use = ["nfw_1", "nfw_2"]
+use = ["nfw"]
 # lazy = true
 
 [[custom_groups]]
 name = "🇺🇸 NFW Balance"
 type = "load-balance"
-use = ["nfw_1", "nfw_2"]
+use = ["nfw"]
+# strategy = "round-robin"
+strategy = "consistent-hashing"
+url = "https://www.gstatic.com/generate_204"
+interval = 300
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 Cloudcone"
+type = "select"
+use = ["cc"]
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 Cloudcone Balance"
+type = "load-balance"
+use = ["cc"]
+# strategy = "round-robin"
+strategy = "consistent-hashing"
+url = "https://www.gstatic.com/generate_204"
+interval = 300
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 GPT"
+type = "select"
+use = ["cc"]
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 GPT Balance"
+type = "load-balance"
+use = ["gpt"]
+# strategy = "round-robin"
+strategy = "consistent-hashing"
+url = "https://www.gstatic.com/generate_204"
+interval = 300
+# lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 YX"
+type = "select"
+use = ["yx"]
+# lazy = true
+
+[[custom_groups]]
+name = ""🇯🇵 YX Balance"
+type = "load-balance"
+use = ["yx"]
 # strategy = "round-robin"
 strategy = "consistent-hashing"
 url = "https://www.gstatic.com/generate_204"
