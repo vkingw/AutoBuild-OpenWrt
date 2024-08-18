@@ -261,15 +261,47 @@ interval = 300
 # lazy = true
 
 [[custom_groups]]
+name = "🇺🇸 Cloudcone"
+type = "select"
+use = ["cc"]
+# lazy = true
+
+[[custom_groups]]
+name = "🇺🇸 Cloudcone Balance"
+type = "load-balance"
+use = ["cc"]
+# strategy = "round-robin"
+strategy = "consistent-hashing"
+url = "https://www.gstatic.com/generate_204"
+interval = 300
+# lazy = true
+
+[[custom_groups]]
 name = "🇺🇸 GPT"
 type = "select"
-use = ["gpt"]
+use = ["cc"]
 # lazy = true
 
 [[custom_groups]]
 name = "🇺🇸 GPT Balance"
 type = "load-balance"
 use = ["gpt"]
+# strategy = "round-robin"
+strategy = "consistent-hashing"
+url = "https://www.gstatic.com/generate_204"
+interval = 300
+# lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 YX"
+type = "select"
+use = ["yx"]
+# lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 YX Balance"
+type = "load-balance"
+use = ["yx"]
 # strategy = "round-robin"
 strategy = "consistent-hashing"
 url = "https://www.gstatic.com/generate_204"
