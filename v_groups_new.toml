@@ -206,19 +206,6 @@ rule = ["港|台|美|新加坡|日",
     "[]🌈 CF OUT",
     "[]🌈 CF OUT WALL"
 ]
-# rule = [
-#     "[]🇺🇸 US",
-#     "[]🇹🇼 TW",
-#     "[]🇭🇰 HK",
-#     "[]🇸🇬 SG",
-#     "[]🇯🇵 JP",
-    # "[]🇺🇸 DMIT",
-    # "[]🇺🇸 DMIT Balance",
-    # "[]🇺🇸 NFW",
-    # "[]🇺🇸 NFW Balance",
-#     "[]🌈 CF",
-#     "[]DIRECT",
-# ]
 
 [[custom_groups]]
 name = "🌍 Domestic_media"
