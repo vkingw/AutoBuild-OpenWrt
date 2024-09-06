@@ -317,15 +317,15 @@ interval = 300
 # lazy = true
 
 [[custom_groups]]
-name = "🇺🇸 GPT"
+name = "🇺🇸 Crunchbits"
 type = "select"
-use = ["cc"]
+use = ["csfw"]
 # lazy = true
 
 [[custom_groups]]
-name = "🇺🇸 GPT Balance"
+name = "🇺🇸 Crunchbits Balance"
 type = "load-balance"
-use = ["gpt"]
+use = ["csfw"]
 # strategy = "round-robin"
 strategy = "consistent-hashing"
 url = "https://www.gstatic.com/generate_204"
