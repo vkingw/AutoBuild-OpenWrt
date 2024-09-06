@@ -3,20 +3,20 @@ group = "💬 OpenAI"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
 
 [[rulesets]]
-group = "🇺🇸 US"
-ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/duplingo.list"
+group = "🗽 Proxies"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/duplingo.list"
 
 [[rulesets]]
 group = "👑 Emby"
-ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/emby.list"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/emby.list"
 
 [[rulesets]]
 group = " & Ⓜ️"
-ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/myrules.list"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/myrules.list"
 
 [[rulesets]]
 group = "⏱ Speedtest"
-ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/speedtest.list"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/speedtest.list"
 
 [[rulesets]]
 group = "🎯 Domestic"
@@ -41,6 +41,10 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEas
 [[rulesets]]
 group = "🛑 Global_interception"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list"
+
+[[rulesets]]
+group = "🛑 Global_interception"
+ruleset = "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml"
 
 [[rulesets]]
 group = "🛑 Global_interception"
