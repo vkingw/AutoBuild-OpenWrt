@@ -20,6 +20,10 @@ ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rul
 
 [[rulesets]]
 group = "🎯 Domestic"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/blacklist.list"
+
+[[rulesets]]
+group = "🎯 Domestic"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
 
 [[rulesets]]
