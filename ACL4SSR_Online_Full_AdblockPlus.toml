@@ -1,4 +1,8 @@
 [[rulesets]]
+group = "🇭🇰 HK"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/white.list"
+
+[[rulesets]]
 group = "💬 OpenAI"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
 
