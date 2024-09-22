@@ -1,6 +1,6 @@
 [[rulesets]]
-group = "🇭🇰 HK"
-ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/white.list"
+group = "🎯 Domestic"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/direct.list"
 
 [[rulesets]]
 group = "💬 OpenAI"
