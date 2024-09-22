@@ -3,6 +3,10 @@ group = "🎯 Domestic"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/direct.list"
 
 [[rulesets]]
+group = "💰 Paypal"
+ruleset = "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/paypal.list"
+
+[[rulesets]]
 group = "💬 OpenAI"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
 
