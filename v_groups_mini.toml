@@ -2,16 +2,14 @@
 name = "🗽 Proxies"
 type = "select"
 rule = [
-    "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance",
+    "[]🇸🇬 VKVM",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone",
-    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits",
+    "[]🇸🇬 VKVM Balance",
+    "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
-    "[]🇯🇵 YX",
-    "[]🇯🇵 YX Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL"
 ]
@@ -20,16 +18,14 @@ rule = [
 name = "📽 YouTube"
 type = "select"
 rule = [
-    "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance",
+    "[]🇸🇬 VKVM",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone",
-    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits",
+    "[]🇸🇬 VKVM Balance",
+    "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
-    "[]🇯🇵 YX",
-    "[]🇯🇵 YX Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL"
 ]
@@ -38,16 +34,14 @@ rule = [
 name = "⚡ Google"
 type = "select"
 rule = [
-    "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance",
+    "[]🇸🇬 VKVM",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone",
-    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits",
+    "[]🇸🇬 VKVM Balance",
+    "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
-    "[]🇯🇵 YX",
-    "[]🇯🇵 YX Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL"
 ]
@@ -56,16 +50,14 @@ rule = [
 name = "💬 OpenAI"
 type = "select"
 rule = [
-    "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance",
+    "[]🇸🇬 VKVM",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone",
-    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits",
+    "[]🇸🇬 VKVM Balance",
+    "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
-    "[]🇯🇵 YX",
-    "[]🇯🇵 YX Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL"
 ]
@@ -74,16 +66,14 @@ rule = [
 name = " & Ⓜ️"
 type = "select"
 rule = [
-    "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance",
+    "[]🇸🇬 VKVM",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone",
-    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits",
+    "[]🇸🇬 VKVM Balance",
+    "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
-    "[]🇯🇵 YX",
-    "[]🇯🇵 YX Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL",
 ]
@@ -92,16 +82,14 @@ rule = [
 name = "👑 Emby"
 type = "select"
 rule = [
-    "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance",
+    "[]🇸🇬 VKVM",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone",
-    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits",
+    "[]🇸🇬 VKVM Balance",
+    "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
-    "[]🇯🇵 YX",
-    "[]🇯🇵 YX Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL",
     "[]DIRECT",
@@ -111,16 +99,14 @@ rule = [
 name = "🎮 Switch"
 type = "select"
 rule = [
-    "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance",
+    "[]🇸🇬 VKVM",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone",
-    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits",
+    "[]🇸🇬 VKVM Balance",
+    "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
-    "[]🇯🇵 YX",
-    "[]🇯🇵 YX Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL",
     "[]DIRECT",
@@ -130,16 +116,14 @@ rule = [
 name = "🎮 Game"
 type = "select"
 rule = [
-    "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance",
+    "[]🇸🇬 VKVM",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone",
-    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits",
+    "[]🇸🇬 VKVM Balance",
+    "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
-    "[]🇯🇵 YX",
-    "[]🇯🇵 YX Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL",
     "[]DIRECT",
@@ -149,16 +133,14 @@ rule = [
 name = "🌍 Foreign_media"
 type = "select"
 rule = [
-    "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance",
+    "[]🇸🇬 VKVM",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone",
-    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits",
+    "[]🇸🇬 VKVM Balance",
+    "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
-    "[]🇯🇵 YX",
-    "[]🇯🇵 YX Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL",
     "[]DIRECT",
@@ -175,16 +157,14 @@ rule = [
 name = "🎥 NETFLIX"
 type = "select"
 rule = [
-    "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance",
+    "[]🇸🇬 VKVM",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone",
-    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits",
+    "[]🇸🇬 VKVM Balance",
+    "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
-    "[]🇯🇵 YX",
-    "[]🇯🇵 YX Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL"
 ]
@@ -193,16 +173,14 @@ rule = [
 name = "💰 PayPal"
 type = "select"
 rule = [
-    "[]🇺🇸 DMIT",
-    "[]🇺🇸 DMIT Balance",
+    "[]🇸🇬 VKVM",
     "[]🇺🇸 NFW",
-    "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone",
-    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits",
+    "[]🇸🇬 VKVM Balance",
+    "[]🇺🇸 NFW Balance",
+    "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
-    "[]🇯🇵 YX",
-    "[]🇯🇵 YX Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL"
 ]
@@ -211,7 +189,7 @@ rule = [
 name = "⏱ Speedtest"
 type = "select"
 rule = [".*", "[]DIRECT"]
-use = ["nfw", "dmit", "cc", "yx", "csfw"]
+use = ["nfw", "cc", "vkvm", "csfw"]
 
 [[custom_groups]]
 name = "🛑 Global_interception"
@@ -229,15 +207,15 @@ type = "select"
 rule = ["[]🗽 Proxies", "[]DIRECT"]
 
 [[custom_groups]]
-name = "🇺🇸 DMIT"
+name = "🇸🇬 VKVM"
 type = "select"
-use = ["dmit"]
+use = ["vkvm"]
 # lazy = true
 
 [[custom_groups]]
-name = "🇺🇸 DMIT Balance"
+name = "🇸🇬 VKVM Balance"
 type = "load-balance"
-use = ["dmit"]
+use = ["vkvm"]
 # strategy = "round-robin"
 strategy = "consistent-hashing"
 url = "https://www.gstatic.com/generate_204"
@@ -286,22 +264,6 @@ use = ["csfw"]
 name = "🇺🇸 Crunchbits Balance"
 type = "load-balance"
 use = ["csfw"]
-# strategy = "round-robin"
-strategy = "consistent-hashing"
-url = "https://www.gstatic.com/generate_204"
-interval = 300
-# lazy = true
-
-[[custom_groups]]
-name = "🇯🇵 YX"
-type = "select"
-use = ["yx"]
-# lazy = true
-
-[[custom_groups]]
-name = "🇯🇵 YX Balance"
-type = "load-balance"
-use = ["yx"]
 # strategy = "round-robin"
 strategy = "consistent-hashing"
 url = "https://www.gstatic.com/generate_204"
