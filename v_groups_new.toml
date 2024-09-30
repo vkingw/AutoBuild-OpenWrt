@@ -12,10 +12,12 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
+    "[]🇭🇰 hk6",
     "[]🇸🇬 VKVM Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
+    "[]🇭🇰 hk6 Balance",
     "[]🌈 United Nations",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL"
@@ -34,10 +36,12 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
+    "[]🇭🇰 hk6",
     "[]🇸🇬 VKVM Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
+    "[]🇭🇰 hk6 Balance",
     "[]🌈 United Nations",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL"
@@ -56,10 +60,12 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
+    "[]🇭🇰 hk6",
     "[]🇸🇬 VKVM Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
+    "[]🇭🇰 hk6 Balance",
     "[]🌈 United Nations",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL"
@@ -78,10 +84,12 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
+    "[]🇭🇰 hk6",
     "[]🇸🇬 VKVM Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
+    "[]🇭🇰 hk6 Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL"
 ]
@@ -99,10 +107,12 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
+    "[]🇭🇰 hk6",
     "[]🇸🇬 VKVM Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
+    "[]🇭🇰 hk6 Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL"
 ]
@@ -120,10 +130,12 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
+    "[]🇭🇰 hk6",
     "[]🇸🇬 VKVM Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
+    "[]🇭🇰 hk6 Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL",
     "[]DIRECT",
@@ -142,10 +154,12 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
+    "[]🇭🇰 hk6",
     "[]🇸🇬 VKVM Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
+    "[]🇭🇰 hk6 Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL",
     "[]DIRECT",
@@ -164,10 +178,12 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
+    "[]🇭🇰 hk6",
     "[]🇸🇬 VKVM Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
+    "[]🇭🇰 hk6 Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL",
     "[]DIRECT",
@@ -186,10 +202,12 @@ rule = ["港|台|美|新加坡|日",
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
+    "[]🇭🇰 hk6",
     "[]🇸🇬 VKVM Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
+    "[]🇭🇰 hk6 Balance",
     "[]🌈 CF PW",
     "[]🌈 CF OUT WALL"
 ]
@@ -218,10 +236,12 @@ rule = [
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
+    "[]🇭🇰 hk6",
     "[]🇸🇬 VKVM Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
+    "[]🇭🇰 hk6 Balance",
 ]
 
 [[custom_groups]]
@@ -263,6 +283,22 @@ use = ["vkvm"]
 name = "🇸🇬 VKVM Balance"
 type = "load-balance"
 use = ["vkvm"]
+# strategy = "round-robin"
+strategy = "consistent-hashing"
+url = "https://www.gstatic.com/generate_204"
+interval = 300
+# lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 hk6"
+type = "select"
+use = ["hk6"]
+# lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 hk6 Balance"
+type = "load-balance"
+use = ["hk6"]
 # strategy = "round-robin"
 strategy = "consistent-hashing"
 url = "https://www.gstatic.com/generate_204"
