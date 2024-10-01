@@ -233,7 +233,7 @@ rule = [
 name = "⏱ Speedtest"
 type = "select"
 rule = [".*", "[]DIRECT"]
-use = ["nfw", "cc", "vkvm", "csfw", "hk6"]
+use = ["nfw", "cc", "vkvm_sg", "vkvm_hk", "csfw", "hk6"]
 
 [[custom_groups]]
 name = "🛑 Global_interception"
