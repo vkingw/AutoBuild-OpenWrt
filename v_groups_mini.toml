@@ -2,12 +2,14 @@
 name = "🗽 Proxies"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM",
+    "[]🇸🇬 VKVM_SG",
+    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
     "[]🇭🇰 hk6",
-    "[]🇸🇬 VKVM Balance",
+    "[]🇸🇬 VKVM_SG Balance",
+    "[]🇭🇰 VKVM_HK Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
@@ -20,12 +22,14 @@ rule = [
 name = "📽 YouTube"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM",
+    "[]🇸🇬 VKVM_SG",
+    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
     "[]🇭🇰 hk6",
-    "[]🇸🇬 VKVM Balance",
+    "[]🇸🇬 VKVM_SG Balance",
+    "[]🇭🇰 VKVM_HK Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
@@ -38,12 +42,14 @@ rule = [
 name = "⚡ Google"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM",
+    "[]🇸🇬 VKVM_SG",
+    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
     "[]🇭🇰 hk6",
-    "[]🇸🇬 VKVM Balance",
+    "[]🇸🇬 VKVM_SG Balance",
+    "[]🇭🇰 VKVM_HK Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
@@ -56,12 +62,14 @@ rule = [
 name = "💬 OpenAI"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM",
+    "[]🇸🇬 VKVM_SG",
+    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
     "[]🇭🇰 hk6",
-    "[]🇸🇬 VKVM Balance",
+    "[]🇸🇬 VKVM_SG Balance",
+    "[]🇭🇰 VKVM_HK Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
@@ -74,12 +82,14 @@ rule = [
 name = " & Ⓜ️"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM",
+    "[]🇸🇬 VKVM_SG",
+    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
     "[]🇭🇰 hk6",
-    "[]🇸🇬 VKVM Balance",
+    "[]🇸🇬 VKVM_SG Balance",
+    "[]🇭🇰 VKVM_HK Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
@@ -92,12 +102,14 @@ rule = [
 name = "👑 Emby"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM",
+    "[]🇸🇬 VKVM_SG",
+    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
     "[]🇭🇰 hk6",
-    "[]🇸🇬 VKVM Balance",
+    "[]🇸🇬 VKVM_SG Balance",
+    "[]🇭🇰 VKVM_HK Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
@@ -111,12 +123,14 @@ rule = [
 name = "🎮 Switch"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM",
+    "[]🇸🇬 VKVM_SG",
+    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
     "[]🇭🇰 hk6",
-    "[]🇸🇬 VKVM Balance",
+    "[]🇸🇬 VKVM_SG Balance",
+    "[]🇭🇰 VKVM_HK Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
@@ -130,12 +144,14 @@ rule = [
 name = "🎮 Game"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM",
+    "[]🇸🇬 VKVM_SG",
+    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
     "[]🇭🇰 hk6",
-    "[]🇸🇬 VKVM Balance",
+    "[]🇸🇬 VKVM_SG Balance",
+    "[]🇭🇰 VKVM_HK Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
@@ -149,12 +165,14 @@ rule = [
 name = "🌍 Foreign_media"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM",
+    "[]🇸🇬 VKVM_SG",
+    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
     "[]🇭🇰 hk6",
-    "[]🇸🇬 VKVM Balance",
+    "[]🇸🇬 VKVM_SG Balance",
+    "[]🇭🇰 VKVM_HK Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
@@ -175,12 +193,14 @@ rule = [
 name = "🎥 NETFLIX"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM",
+    "[]🇸🇬 VKVM_SG",
+    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
     "[]🇭🇰 hk6",
-    "[]🇸🇬 VKVM Balance",
+    "[]🇸🇬 VKVM_SG Balance",
+    "[]🇭🇰 VKVM_HK Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
@@ -193,12 +213,14 @@ rule = [
 name = "💰 PayPal"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM",
+    "[]🇸🇬 VKVM_SG",
+    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
     "[]🇭🇰 hk6",
-    "[]🇸🇬 VKVM Balance",
+    "[]🇸🇬 VKVM_SG Balance",
+    "[]🇭🇰 VKVM_HK Balance",
     "[]🇺🇸 NFW Balance",
     "[]🇺🇸 Cloudcone Balance",
     "[]🇺🇸 Crunchbits Balance",
@@ -229,15 +251,31 @@ type = "select"
 rule = ["[]🗽 Proxies", "[]DIRECT"]
 
 [[custom_groups]]
-name = "🇸🇬 VKVM"
+name = "🇸🇬 VKVM_SG"
 type = "select"
-use = ["vkvm"]
+use = ["vkvm_sg"]
 # lazy = true
 
 [[custom_groups]]
-name = "🇸🇬 VKVM Balance"
+name = "🇸🇬 VKVM_SG Balance"
 type = "load-balance"
-use = ["vkvm"]
+use = ["vkvm_sg"]
+# strategy = "round-robin"
+strategy = "consistent-hashing"
+url = "https://www.gstatic.com/generate_204"
+interval = 300
+# lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 VKVM_HK"
+type = "select"
+use = ["vkvm_hk"]
+# lazy = true
+
+[[custom_groups]]
+name = "🇭🇰 VKVM_HK Balance"
+type = "load-balance"
+use = ["vkvm_hk"]
 # strategy = "round-robin"
 strategy = "consistent-hashing"
 url = "https://www.gstatic.com/generate_204"
