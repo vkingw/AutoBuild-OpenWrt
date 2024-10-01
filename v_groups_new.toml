@@ -239,8 +239,8 @@ rule = ["[]DIRECT", "[]🇹🇼 TW", "[]🇭🇰 HK"]
 name = "🎥 NETFLIX"
 type = "select"
 rule = ["港|台|美|新加坡|日"]
-use = ["nfw", "cc", "vkvm", "csfw", "hk6"]
-# rule = ["[]🇺🇸 US", "[]🇹🇼 TW", "[]🇭🇰 HK", "[]🇸🇬 SG", "[]🇯🇵 JP", "[]🇸🇬 VKVM"]
+use = ["nfw", "cc", "vkvm_sg", "vkvm_hk", "csfw", "hk6"]
+# rule = ["[]🇺🇸 US", "[]🇹🇼 TW", "[]🇭🇰 HK", "[]🇸🇬 SG", "[]🇯🇵 JP", "[]🇸🇬 VKVM]
 
 [[custom_groups]]
 name = "💰 PayPal"
@@ -269,7 +269,7 @@ rule = [
 name = "⏱ Speedtest"
 type = "select"
 rule = [".*", "[]DIRECT"]
-use = ["nfw", "cc", "vkvm", "csfw", "hk6"]
+use = ["nfw", "cc", "vkvm_sg", "vkvm_hk", "csfw", "hk6"]
 
 [[custom_groups]]
 name = "🛑 Global_interception"
