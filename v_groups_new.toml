@@ -239,7 +239,7 @@ rule = ["[]DIRECT", "[]🇹🇼 TW", "[]🇭🇰 HK"]
 name = "🎥 NETFLIX"
 type = "select"
 rule = ["港|台|美|新加坡|日"]
-use = ["nfw", "cc", "vkvm_sg", "vkvm_hk", "csfw", "hk6"]
+use = ["nfw", "cc", "vkvm_sg", "vkvm_hk", "vkvm_us", "csfw"]
 # rule = ["[]🇺🇸 US", "[]🇹🇼 TW", "[]🇭🇰 HK", "[]🇸🇬 SG", "[]🇯🇵 JP", "[]🇸🇬 VKVM", "[]🇺🇸 VKVM_US"]
 
 [[custom_groups]]
