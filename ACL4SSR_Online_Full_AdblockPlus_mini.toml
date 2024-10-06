@@ -11,6 +11,10 @@ group = "💬 OpenAI"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
 
 [[rulesets]]
+group = "📽 YouTube"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+
+[[rulesets]]
 group = "🗽 Proxies"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/duplingo.list"
 
@@ -121,10 +125,6 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Rulese
 [[rulesets]]
 group = "🎮 Game"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list"
-
-[[rulesets]]
-group = "📽 YouTube"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
 
 [[rulesets]]
 group = "🎥 NETFLIX"
