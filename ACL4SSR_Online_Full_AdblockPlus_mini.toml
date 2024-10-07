@@ -40,7 +40,7 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEas
 
 [[rulesets]]
 group = "🎮 Switch"
-ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/Switch.list"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/switch.list"
 
 [[rulesets]]
 group = "💰 PayPal"
