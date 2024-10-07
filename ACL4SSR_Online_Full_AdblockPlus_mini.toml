@@ -39,6 +39,10 @@ group = "🛑 Global_interception"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
 
 [[rulesets]]
+group = "🎮 Switch"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/Switch.list"
+
+[[rulesets]]
 group = "💰 PayPal"
 ruleset = "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/paypal.list"
 
