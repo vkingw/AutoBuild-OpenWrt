@@ -11,6 +11,7 @@ rule = [
     "[]🇸🇬 VKVM_SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
+    "[]🇯🇵 VKVM_JP",  
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
@@ -37,6 +38,7 @@ rule = [
     "[]🇸🇬 VKVM_SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
+    "[]🇯🇵 VKVM_JP",  
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
@@ -63,6 +65,7 @@ rule = [
     "[]🇸🇬 VKVM_SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
+    "[]🇯🇵 VKVM_JP",  
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
@@ -89,6 +92,7 @@ rule = [
     "[]🇸🇬 VKVM_SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
+    "[]🇯🇵 VKVM_JP",  
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
@@ -114,6 +118,7 @@ rule = [
     "[]🇸🇬 VKVM_SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
+    "[]🇯🇵 VKVM_JP",  
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
@@ -139,6 +144,7 @@ rule = [
     "[]🇸🇬 VKVM_SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
+    "[]🇯🇵 VKVM_JP",  
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
@@ -165,6 +171,7 @@ rule = [
     "[]🇸🇬 VKVM_SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
+    "[]🇯🇵 VKVM_JP",  
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
@@ -191,6 +198,7 @@ rule = [
     "[]🇸🇬 VKVM_SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
+    "[]🇯🇵 VKVM_JP",  
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
@@ -217,6 +225,7 @@ rule = ["港|台|美|新加坡|日",
     "[]🇸🇬 VKVM_SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
+    "[]🇯🇵 VKVM_JP",  
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
@@ -254,6 +263,7 @@ rule = [
     "[]🇸🇬 VKVM_SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
+    "[]🇯🇵 VKVM_JP",  
     "[]🇺🇸 NFW",
     "[]🇺🇸 Cloudcone",
     "[]🇺🇸 Crunchbits",
@@ -336,6 +346,22 @@ use = ["vkvm_us"]
 name = "🇺🇸 VKVM_US Balance"
 type = "load-balance"
 use = ["vkvm_us"]
+# strategy = "round-robin"
+strategy = "consistent-hashing"
+url = "https://www.gstatic.com/generate_204"
+interval = 300
+# lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 VKVM_JP"
+type = "select"
+use = ["vkvm_jp"]
+# lazy = true
+
+[[custom_groups]]
+name = "🇯🇵 VKVM_JP Balance"
+type = "load-balance"
+use = ["vkvm_jp"]
 # strategy = "round-robin"
 strategy = "consistent-hashing"
 url = "https://www.gstatic.com/generate_204"
