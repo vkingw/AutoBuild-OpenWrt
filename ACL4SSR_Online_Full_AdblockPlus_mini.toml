@@ -67,6 +67,10 @@ group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/myrules.list"
 
 [[rulesets]]
+group = "🇸🇬 VKVM_SG"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/special.list"
+
+[[rulesets]]
 group = "⏱ Speedtest"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/speedtest.list"
 
