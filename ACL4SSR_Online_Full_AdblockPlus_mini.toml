@@ -67,6 +67,10 @@ group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/myrules.yaml"
 
 [[rulesets]]
+group = " & Ⓜ️"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/OneDrive.yaml"
+
+[[rulesets]]
 group = "🇸🇬 VKVM_SG"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/special.yaml"
 
