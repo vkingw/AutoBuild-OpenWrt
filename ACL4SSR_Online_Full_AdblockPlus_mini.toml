@@ -4,7 +4,7 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/C
 
 [[rulesets]]
 group = "🎯 Domestic"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/refs/heads/master/Clash/Providers/Providers/UnBan.yaml"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/UnBan.yaml"
 
 [[rulesets]]
 group = "🎯 Domestic"
@@ -67,11 +67,7 @@ group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/myrules.yaml"
 
 [[rulesets]]
-group = " & Ⓜ️"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/OneDrive.yaml"
-
-[[rulesets]]
-group = "🇸🇬 VKVM_SG"
+group = "🇺🇸 Cloudcone"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/special.yaml"
 
 [[rulesets]]
@@ -88,23 +84,19 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/C
 
 [[rulesets]]
 group = "⚡ Google"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/GoogleCN.yaml"
-
-[[rulesets]]
-group = "🎮 Game"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/SteamCN.yaml"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/GoogleCN.yaml"
 
 [[rulesets]]
 group = " & Ⓜ️"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Bing.yaml"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Bing.yaml"
 
 [[rulesets]]
 group = " & Ⓜ️"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/OneDrive.yaml"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/OneDrive.yaml"
 
 [[rulesets]]
 group = " & Ⓜ️"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Microsoft.yaml"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Microsoft.yaml"
 
 [[rulesets]]
 group = " & Ⓜ️"
@@ -112,23 +104,15 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/C
 
 [[rulesets]]
 group = " & Ⓜ️"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Telegram.yaml"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Telegram.yaml"
 
 [[rulesets]]
-group = "🎯 Domestic"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/NetEaseMusic.yaml"
+group = "🎮 Game"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/SteamCN.yaml"
 
 [[rulesets]]
 group = "🎮 Game"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Epic.yaml"
-
-[[rulesets]]
-group = "🎮 Game"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Origin.yaml"
-
-[[rulesets]]
-group = "🎮 Game"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Sony.yaml"
 
 [[rulesets]]
 group = "🎮 Game"
@@ -144,43 +128,7 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/C
 
 [[rulesets]]
 group = "🗽 Proxies"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Bahamut.yaml"
-
-[[rulesets]]
-group = "🎯 Domestic"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/BilibiliHMT.yaml"
-
-[[rulesets]]
-group = "🎯 Domestic"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Bilibili.yaml"
-
-[[rulesets]]
-group = "🌍 Domestic_media"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ChinaMedia.yaml"
-
-# [[rulesets]]
-# group = "🌍 Foreign_media"
-# ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ProxyMedia.yaml"
-
-[[rulesets]]
-group = "🗽 Proxies"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ProxyGFWlist.yaml"
-
-[[rulesets]]
-group = "🎯 Domestic"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ChinaIp.yaml"
-
-[[rulesets]]
-group = "🎯 Domestic"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ChinaDomain.yaml"
-
-[[rulesets]]
-group = "🎯 Domestic"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ChinaCompanyIp.yaml"
-
-[[rulesets]]
-group = "🎯 Domestic"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Download.yaml"
 
 [[rulesets]]
 group = "DIRECT"
