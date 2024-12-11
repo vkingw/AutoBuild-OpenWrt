@@ -1,199 +1,199 @@
 [[rulesets]]
 group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/LocalAreaNetwork.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/UnBan.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/direct.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/blacklist.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🛑 Global_interception"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/BanAD.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🛑 Global_interception"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/BanProgramAD.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🛑 Global_interception"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/BanEasyPrivacy.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🛑 Global_interception"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/BanEasyList.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🛑 Global_interception"
 ruleset = "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/heads/main/Filters/AWAvenue-Ads-Rule-Clash.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🛑 Global_interception"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/BanEasyListChina.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🎮 Switch"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/switch.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "💰 PayPal"
 ruleset = "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/paypal.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "💬 OpenAI"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/OpenAi.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "📽 YouTube"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/YouTube.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🗽 Proxies"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/duplingo.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "👑 Emby"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/emby.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/myrules.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🇺🇸 Cloudcone"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/special.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "⏱ Speedtest"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/speedtest.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "⚡ Google"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Google.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "⚡ Google"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/GoogleFCM.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "⚡ Google"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/GoogleCN.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Bing.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/OneDrive.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Microsoft.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Apple.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = " & Ⓜ️"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Telegram.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🎮 Game"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/SteamCN.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🎮 Game"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Epic.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🎮 Game"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Steam.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🎮 Game"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Nintendo.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🎥 NETFLIX"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Netflix.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
 group = "🗽 Proxies"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ProxyGFWlist.yaml"
-type = "clash-domain"
+type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
