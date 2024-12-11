@@ -12,7 +12,7 @@ ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rul
 
 [[rulesets]]
 group = "DIRECT"
-ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/blackyaml.yaml"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/blacklist.yaml"
 
 [[rulesets]]
 group = "🛑 Global_interception"
@@ -28,7 +28,7 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/C
 
 [[rulesets]]
 group = "🛑 Global_interception"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/BanEasyyaml.yaml"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/BanEasyList.yaml"
 
 [[rulesets]]
 group = "🛑 Global_interception"
@@ -36,7 +36,7 @@ ruleset = "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/
 
 [[rulesets]]
 group = "🛑 Global_interception"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/BanEasyyamlChina.yaml"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/BanEasyListChina.yaml"
 
 [[rulesets]]
 group = "🎮 Switch"
@@ -128,7 +128,7 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/C
 
 [[rulesets]]
 group = "🗽 Proxies"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ProxyGFWyaml.yaml"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ProxyGFWList.yaml"
 
 [[rulesets]]
 group = "DIRECT"
