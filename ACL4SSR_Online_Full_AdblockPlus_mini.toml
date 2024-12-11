@@ -128,7 +128,7 @@ ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/C
 
 [[rulesets]]
 group = "🗽 Proxies"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ProxyGFWList.yaml"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ProxyGFWlist.yaml"
 
 [[rulesets]]
 group = "DIRECT"
