@@ -1,6 +1,8 @@
 [[rulesets]]
 group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/LocalAreaNetwork.yaml"
+type = "clash-domain"
+interval = 86400
 
 [[rulesets]]
 group = "DIRECT"
