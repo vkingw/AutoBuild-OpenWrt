@@ -3,9 +3,9 @@ name = "🗽 Proxies"
 type = "select"
 rule = [
     "[]🇸🇬 VKVM_SG",
+    "[]🇸🇬 VKVM_12SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo"
 ]
@@ -15,9 +15,9 @@ name = "📽 YouTube"
 type = "select"
 rule = [
     "[]🇸🇬 VKVM_SG",
+    "[]🇸🇬 VKVM_12SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo"
 ]
@@ -27,9 +27,9 @@ name = "⚡ Google"
 type = "select"
 rule = [
     "[]🇸🇬 VKVM_SG",
+    "[]🇸🇬 VKVM_12SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo"
 ]
@@ -39,9 +39,9 @@ name = "💬 OpenAI"
 type = "select"
 rule = [
     "[]🇸🇬 VKVM_SG",
+    "[]🇸🇬 VKVM_12SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo"
 ]
@@ -51,9 +51,9 @@ name = " & Ⓜ️"
 type = "select"
 rule = [
     "[]🇸🇬 VKVM_SG",
+    "[]🇸🇬 VKVM_12SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo"
 ]
@@ -63,9 +63,9 @@ name = "👑 Emby"
 type = "select"
 rule = [
     "[]🇸🇬 VKVM_SG",
+    "[]🇸🇬 VKVM_12SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo",
     "[]DIRECT",
@@ -76,9 +76,9 @@ name = "🎮 Switch"
 type = "select"
 rule = [
     "[]🇸🇬 VKVM_SG",
+    "[]🇸🇬 VKVM_12SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo",
     "[]DIRECT",
@@ -89,9 +89,9 @@ name = "🎮 Game"
 type = "select"
 rule = [
     "[]🇸🇬 VKVM_SG",
+    "[]🇸🇬 VKVM_12SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo",
     "[]DIRECT",
@@ -102,9 +102,9 @@ name = "🌍 Foreign_media"
 type = "select"
 rule = [
     "[]🇸🇬 VKVM_SG",
+    "[]🇸🇬 VKVM_12SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo",
     "[]DIRECT",
@@ -115,9 +115,9 @@ name = "🎥 NETFLIX"
 type = "select"
 rule = [
     "[]🇸🇬 VKVM_SG",
+    "[]🇸🇬 VKVM_12SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo"
 ]
@@ -127,9 +127,9 @@ name = "💰 PayPal"
 type = "select"
 rule = [
     "[]🇸🇬 VKVM_SG",
+    "[]🇸🇬 VKVM_12SG",
     "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo"
 ]
@@ -159,6 +159,12 @@ rule = ["[]🗽 Proxies", "[]DIRECT"]
 name = "🇸🇬 VKVM_SG"
 type = "select"
 use = ["vkvm_sg"]
+# lazy = true
+
+[[custom_groups]]
+name = "🇸🇬 VKVM_12SG"
+type = "select"
+use = ["vkvm_12sg"]
 # lazy = true
 
 [[custom_groups]]
