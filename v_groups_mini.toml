@@ -149,7 +149,7 @@ rule = [
 name = "⏱ Speedtest"
 type = "select"
 rule = [".*", "[]DIRECT"]
-use = ["cc", "vkvm_sg", "vkvm_hk",  "vkvm_us",  "vkvm_jp", "gullo", "vkvm_12sg"]
+use = ["cc", "vkvm_sg", "vkvm_hk",  "vkvm_us",  "vkvm_jp", "gullo", "vkvm_12sg" ]
 
 [[custom_groups]]
 name = "🛑 Global_interception"
@@ -170,6 +170,12 @@ rule = ["[]🗽 Proxies", "[]DIRECT"]
 name = "🇸🇬 VKVM_SG"
 type = "select"
 use = ["vkvm_sg"]
+# lazy = true
+
+[[custom_groups]]
+name = "🇸🇬 VKVM_12SG"
+type = "select"
+use = ["vkvm_12sg"]
 # lazy = true
 
 [[custom_groups]]
