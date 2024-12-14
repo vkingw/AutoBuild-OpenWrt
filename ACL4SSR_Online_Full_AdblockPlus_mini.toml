@@ -11,18 +11,6 @@ type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
-group = "DIRECT"
-ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/direct.yaml"
-type = "clash-classic"
-interval = 86400
-
-[[rulesets]]
-group = "DIRECT"
-ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/blacklist.yaml"
-type = "clash-classic"
-interval = 86400
-
-[[rulesets]]
 group = "🛑 Global_interception"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/BanAD.yaml"
 type = "clash-classic"
@@ -36,19 +24,7 @@ interval = 86400
 
 [[rulesets]]
 group = "🛑 Global_interception"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/BanEasyPrivacy.yaml"
-type = "clash-classic"
-interval = 86400
-
-[[rulesets]]
-group = "🛑 Global_interception"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/BanEasyList.yaml"
-type = "clash-classic"
-interval = 86400
-
-[[rulesets]]
-group = "🛑 Global_interception"
-ruleset = "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/heads/main/Filters/AWAvenue-Ads-Rule-Clash.yaml"
 type = "clash-classic"
 interval = 86400
 
@@ -59,26 +35,32 @@ type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
+group = "🛑 Global_interception"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/BanEasyPrivacy.yaml"
+type = "clash-classic"
+interval = 86400
+
+[[rulesets]]
+group = "🛑 Global_interception"
+ruleset = "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/heads/main/Filters/AWAvenue-Ads-Rule-Clash.yaml"
+type = "clash-classic"
+interval = 86400
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/direct.yaml"
+type = "clash-classic"
+interval = 86400
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/blacklist.yaml"
+type = "clash-classic"
+interval = 86400
+
+[[rulesets]]
 group = "🎮 Switch"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/switch.yaml"
-type = "clash-classic"
-interval = 86400
-
-[[rulesets]]
-group = "💰 PayPal"
-ruleset = "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/paypal.yaml"
-type = "clash-classic"
-interval = 86400
-
-[[rulesets]]
-group = "💬 OpenAI"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/OpenAi.yaml"
-type = "clash-classic"
-interval = 86400
-
-[[rulesets]]
-group = "📽 YouTube"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/YouTube.yaml"
 type = "clash-classic"
 interval = 86400
 
@@ -109,6 +91,18 @@ interval = 86400
 [[rulesets]]
 group = "⏱ Speedtest"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/speedtest.yaml"
+type = "clash-classic"
+interval = 86400
+
+[[rulesets]]
+group = "💰 PayPal"
+ruleset = "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/paypal.yaml"
+type = "clash-classic"
+interval = 86400
+
+[[rulesets]]
+group = "📽 YouTube"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/YouTube.yaml"
 type = "clash-classic"
 interval = 86400
 
@@ -161,6 +155,12 @@ type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
+group = "💬 OpenAI"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/OpenAi.yaml"
+type = "clash-classic"
+interval = 86400
+
+[[rulesets]]
 group = "🎮 Game"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/SteamCN.yaml"
 type = "clash-classic"
@@ -193,6 +193,18 @@ interval = 86400
 [[rulesets]]
 group = "🗽 Proxies"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ProxyGFWlist.yaml"
+type = "clash-classic"
+interval = 86400
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ChinaDomain.yaml"
+type = "clash-classic"
+interval = 86400
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ChinaIp.yaml"
 type = "clash-classic"
 interval = 86400
 
