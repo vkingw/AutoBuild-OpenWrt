@@ -143,6 +143,12 @@ type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
+group = "💬 OpenAI"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/ClaudeAI.yaml"
+type = "clash-classic"
+interval = 86400
+
+[[rulesets]]
 group = "🎮 Game"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/SteamCN.yaml"
 type = "clash-classic"
