@@ -53,24 +53,6 @@ type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
-group = "DIRECT"
-ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/blacklist.yaml"
-type = "clash-classic"
-interval = 86400
-
-[[rulesets]]
-group = "🎮 Switch"
-ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/switch.yaml"
-type = "clash-classic"
-interval = 86400
-
-[[rulesets]]
-group = "🗽 Proxies"
-ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/duplingo.yaml"
-type = "clash-classic"
-interval = 86400
-
-[[rulesets]]
 group = "👑 Emby"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/emby.yaml"
 type = "clash-classic"
@@ -187,24 +169,6 @@ interval = 86400
 [[rulesets]]
 group = "🎥 NETFLIX"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Netflix.yaml"
-type = "clash-classic"
-interval = 86400
-
-[[rulesets]]
-group = "🗽 Proxies"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ProxyGFWlist.yaml"
-type = "clash-classic"
-interval = 86400
-
-[[rulesets]]
-group = "DIRECT"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ChinaDomain.yaml"
-type = "clash-classic"
-interval = 86400
-
-[[rulesets]]
-group = "DIRECT"
-ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ChinaIp.yaml"
 type = "clash-classic"
 interval = 86400
 
