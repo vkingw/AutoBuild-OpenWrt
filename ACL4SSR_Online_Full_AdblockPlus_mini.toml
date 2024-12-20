@@ -1,17 +1,17 @@
 [[rulesets]]
-group = "DIRECT
+group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/LocalAreaNetwork.yaml"
 
 [[rulesets]]
-group = "DIRECT
+group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/refs/heads/master/Clash/Providers/Providers/UnBan.yaml"
 
 [[rulesets]]
-group = "DIRECT
+group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/direct.yaml"
 
 [[rulesets]]
-group = "DIRECT
+group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/blacklist.yaml"
 
 [[rulesets]]
