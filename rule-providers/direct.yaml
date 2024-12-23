@@ -1,5 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,yxvm.com
+  - DOMAIN-SUFFIX,xiaomi.com
   - DOMAIN-SUFFIX,ledupeiyou.com
 
   - SRC-IP-CIDR,192.168.10.15/32
