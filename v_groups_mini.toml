@@ -2,9 +2,7 @@
 name = "🗽 Proxies"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_SG",
     "[]🇸🇬 VKVM_12SG",
-    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
     "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
@@ -15,9 +13,7 @@ rule = [
 name = "📽 YouTube"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_SG",
     "[]🇸🇬 VKVM_12SG",
-    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
     "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
@@ -28,9 +24,7 @@ rule = [
 name = "⚡ Google"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_SG",
     "[]🇸🇬 VKVM_12SG",
-    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
     "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
@@ -41,9 +35,7 @@ rule = [
 name = "💬 OpenAI"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_SG",
     "[]🇸🇬 VKVM_12SG",
-    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
     "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
@@ -54,9 +46,7 @@ rule = [
 name = " & Ⓜ️"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_SG",
     "[]🇸🇬 VKVM_12SG",
-    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
     "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
@@ -67,9 +57,7 @@ rule = [
 name = "👑 Emby"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_SG",
     "[]🇸🇬 VKVM_12SG",
-    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
     "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
@@ -81,9 +69,7 @@ rule = [
 name = "🎮 Switch"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_SG",
     "[]🇸🇬 VKVM_12SG",
-    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
     "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
@@ -95,9 +81,7 @@ rule = [
 name = "🎮 Game"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_SG",
     "[]🇸🇬 VKVM_12SG",
-    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
     "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
@@ -109,9 +93,7 @@ rule = [
 name = "🌍 Foreign_media"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_SG",
     "[]🇸🇬 VKVM_12SG",
-    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
     "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
@@ -123,9 +105,7 @@ rule = [
 name = "🎥 NETFLIX"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_SG",
     "[]🇸🇬 VKVM_12SG",
-    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
     "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
@@ -136,9 +116,7 @@ rule = [
 name = "💰 PayPal"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_SG",
     "[]🇸🇬 VKVM_12SG",
-    "[]🇭🇰 VKVM_HK",
     "[]🇺🇸 VKVM_US",
     "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
@@ -149,7 +127,7 @@ rule = [
 name = "⏱ Speedtest"
 type = "select"
 rule = [".*", "[]DIRECT"]
-use = ["cc", "vkvm_sg", "vkvm_hk",  "vkvm_us",  "vkvm_jp", "gullo", "vkvm_12sg" ]
+use = ["cc",  "vkvm_us",  "vkvm_jp", "gullo", "vkvm_12sg" ]
 
 [[custom_groups]]
 name = "🛑 Global_interception"
@@ -167,21 +145,9 @@ type = "select"
 rule = ["[]🗽 Proxies", "[]DIRECT"]
 
 [[custom_groups]]
-name = "🇸🇬 VKVM_SG"
-type = "select"
-use = ["vkvm_sg"]
-# lazy = true
-
-[[custom_groups]]
 name = "🇸🇬 VKVM_12SG"
 type = "select"
 use = ["vkvm_12sg"]
-# lazy = true
-
-[[custom_groups]]
-name = "🇭🇰 VKVM_HK"
-type = "select"
-use = ["vkvm_hk"]
 # lazy = true
 
 [[custom_groups]]
@@ -201,16 +167,6 @@ name = "🇺🇸 Cloudcone"
 type = "select"
 use = ["cc"]
 # lazy = true
-
-# [[custom_groups]]
-# name = "🇺🇸 Cloudcone Balance"
-# type = "load-balance"
-# use = ["cc"]
-# # strategy = "round-robin"
-# strategy = "consistent-hashing"
-# url = "https://www.gstatic.com/generate_204"
-# interval = 300
-# # lazy = true
 
 [[custom_groups]]
 name = "🇨🇦 Gullo"
