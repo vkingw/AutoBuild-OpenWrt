@@ -65,7 +65,7 @@ type = "clash-classic"
 interval = 86400
 
 [[rulesets]]
-group = "🇺🇸 Cloudcone"
+group = "🇺🇸 Bandwagon"
 ruleset = "https://raw.githubusercontent.com/vkingw/AutoBuild-OpenWrt/v23.05/rule-providers/special.yaml"
 type = "clash-classic"
 interval = 86400
