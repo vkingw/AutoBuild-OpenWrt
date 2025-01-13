@@ -5,7 +5,6 @@ rule = [
     "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo"
 ]
@@ -17,7 +16,6 @@ rule = [
     "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo"
 ]
@@ -29,7 +27,6 @@ rule = [
     "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo"
 ]
@@ -41,7 +38,6 @@ rule = [
     "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo"
 ]
@@ -53,7 +49,6 @@ rule = [
     "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo"
 ]
@@ -65,7 +60,6 @@ rule = [
     "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo",
     "[]DIRECT",
@@ -78,7 +72,6 @@ rule = [
     "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo",
     "[]DIRECT",
@@ -91,7 +84,6 @@ rule = [
     "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo",
     "[]DIRECT",
@@ -104,7 +96,6 @@ rule = [
     "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo",
     "[]DIRECT",
@@ -117,7 +108,6 @@ rule = [
     "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo"
 ]
@@ -129,7 +119,6 @@ rule = [
     "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
-    "[]🇯🇵 VKVM_JP",
     "[]🇺🇸 Cloudcone",
     "[]🇨🇦 Gullo"
 ]
@@ -138,7 +127,7 @@ rule = [
 name = "⏱ Speedtest"
 type = "select"
 rule = [".*", "[]DIRECT"]
-use = ["cc",  "vkvm_us", "bandwagon", "vkvm_jp", "gullo", "vkvm_12sg" ]
+use = ["cc",  "vkvm_us", "bandwagon", "gullo", "vkvm_12sg" ]
 
 [[custom_groups]]
 name = "🛑 Global_interception"
@@ -171,12 +160,6 @@ use = ["vkvm_us"]
 name = "🇺🇸 Bandwagon"
 type = "select"
 use = ["bandwagon"]
-# lazy = true
-
-[[custom_groups]]
-name = "🇯🇵 VKVM_JP"
-type = "select"
-use = ["vkvm_jp"]
 # lazy = true
 
 [[custom_groups]]
