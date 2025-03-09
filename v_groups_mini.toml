@@ -2,7 +2,6 @@
 name = "🗽 Proxies"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
     "[]🇺🇸 Cloudcone",
@@ -13,7 +12,6 @@ rule = [
 name = "📽 YouTube"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
     "[]🇺🇸 Cloudcone",
@@ -24,7 +22,6 @@ rule = [
 name = "⚡ Google"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
     "[]🇺🇸 Cloudcone",
@@ -35,7 +32,6 @@ rule = [
 name = "💬 OpenAI"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
     "[]🇺🇸 Cloudcone",
@@ -46,7 +42,6 @@ rule = [
 name = " & Ⓜ️"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
     "[]🇺🇸 Cloudcone",
@@ -57,7 +52,6 @@ rule = [
 name = "👑 Emby"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
     "[]🇺🇸 Cloudcone",
@@ -69,7 +63,6 @@ rule = [
 name = "🎮 Switch"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
     "[]🇺🇸 Cloudcone",
@@ -81,7 +74,6 @@ rule = [
 name = "🎮 Game"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
     "[]🇺🇸 Cloudcone",
@@ -93,7 +85,6 @@ rule = [
 name = "🌍 Foreign_media"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
     "[]🇺🇸 Cloudcone",
@@ -105,7 +96,6 @@ rule = [
 name = "🎥 NETFLIX"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
     "[]🇺🇸 Cloudcone",
@@ -116,7 +106,6 @@ rule = [
 name = "💰 PayPal"
 type = "select"
 rule = [
-    "[]🇸🇬 VKVM_12SG",
     "[]🇺🇸 VKVM_US",
     "[]🇺🇸 Bandwagon",
     "[]🇺🇸 Cloudcone",
@@ -127,7 +116,7 @@ rule = [
 name = "⏱ Speedtest"
 type = "select"
 rule = [".*", "[]DIRECT"]
-use = ["cc",  "vkvm_us", "bandwagon", "gullo", "vkvm_12sg" ]
+use = ["cc",  "vkvm_us", "bandwagon", "gullo" ]
 
 [[custom_groups]]
 name = "🛑 Global_interception"
@@ -143,12 +132,6 @@ rule = ["[]DIRECT"]
 name = "🐟 Slipped"
 type = "select"
 rule = ["[]🗽 Proxies", "[]DIRECT"]
-
-[[custom_groups]]
-name = "🇸🇬 VKVM_12SG"
-type = "select"
-use = ["vkvm_12sg"]
-# lazy = true
 
 [[custom_groups]]
 name = "🇺🇸 VKVM_US"
