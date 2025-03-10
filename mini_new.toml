@@ -187,7 +187,7 @@ interval = 86400
 [[rulesets]]
 group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/ChinaCompanyIp.yaml"
-type = "clash-classic"
+type = "clash-ipcidr"
 interval = 86400
 
 [[rulesets]]
