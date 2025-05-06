@@ -1,3 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,apple.com
   - DOMAIN-SUFFIX,1password.com
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,synology.com
+
