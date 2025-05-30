@@ -1,14 +1,14 @@
 #=================================================
 # Description: Build OpenWrt using GitHub Actions
-# Lisence: MIT
+# License: MIT
 # Author: eSirPlayground
-# Youtube Channel: https://goo.gl/fvkdwm 
+# Youtube Channel: https://goo.gl/fvkdwm
 #=================================================
 
 name: Build_x86_64_New
 
 # Add a button to trigger the workflow
-on: 
+on:
   repository_dispatch:
   workflow_dispatch:
 
@@ -18,7 +18,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v4
 
     - name: Initialization environment
       env:
@@ -40,9 +40,9 @@ jobs:
         sudo -E apt-get clean
 
     - name: Clone source code
-      env: 
+      env:
         REPO_URL: https://github.com/openwrt/openwrt
-        REPO_BRANCH: main
+        REPO_BRANCH: v24.10.1
       run: |
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         cd ./openwrt/package
@@ -57,7 +57,7 @@ jobs:
         git clone https://github.com/vkingw/homeproxy.git
         git clone https://github.com/pexcn/openwrt-chinadns-ng.git
         git clone https://github.com/sirpdboy/luci-app-ddns-go.git
-        
+
     - name: Update & Install feeds
       working-directory: ./openwrt
       run: |
@@ -69,7 +69,7 @@ jobs:
     #  working-directory: ./openwrt
     #  run: |
     #    git clone https://github.com/xiaorouji/openwrt-passwall.git package/lienol
-    #    git clone "your_github_link" package/"your_folder_name"      
+    #    git clone "your_github_link" package/"your_folder_name"
 
     #- name: Import external feeds - JerryKuKu Argon
     #  working-directory: ./openwrt
@@ -82,7 +82,7 @@ jobs:
       run: |
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         cd openwrt && make defconfig
-        
+
     - name: Download package
       working-directory: ./openwrt
       run: |
@@ -94,11 +94,11 @@ jobs:
       working-directory: ./openwrt
       run: |
         echo -e "$(nproc) thread build."
-        make -j1 V=s 
+        make -j1 V=s
         # make -j$(nproc) V=s
 
     - name : Upload artifact
-      uses: actions/upload-artifact@master
+      uses: actions/upload-artifact@v4
       with:
         name: OpenWrt
         path: openwrt/bin
