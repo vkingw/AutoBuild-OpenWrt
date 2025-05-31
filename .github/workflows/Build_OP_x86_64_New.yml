@@ -17,14 +17,9 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         set +e
-        docker rmi `docker images -q`
-        echo "Deleting files to free up space..."
-        sudo rm -rf \
-          /usr/share/dotnet \
-          /usr/local/lib/android \
-          /opt/ghc \
-          /etc/mysql \
-          /etc/php
+        echo "🧹 清理镜像与预装软件..."
+        docker rmi $(docker images -q) || true
+        sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /etc/mysql /etc/php
         sudo -E apt-get -y purge azure-cli* docker* ghc* zulu* hhvm* llvm* firefox* google* dotnet* aspnetcore* powershell* openjdk* adoptopenjdk* mysql* php* mongodb* moby* snap* || true
         sudo -E apt-get update
         sudo -E apt-get -y install ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential bzip2 ccache cmake cpio curl device-tree-compiler fastjar flex gawk gettext gcc-multilib g++-multilib git gperf haveged help2man intltool libc6-dev-i386 libelf-dev libfuse-dev libglib2.0-dev libgmp3-dev libltdl-dev libmpc-dev libmpfr-dev libncurses5-dev libncursesw5-dev libpython3-dev libreadline-dev libssl-dev libtool lrzsz mkisofs msmtp nano ninja-build p7zip p7zip-full patch pkgconf python2.7 python3 python3-pyelftools python3-setuptools qemu-utils rsync scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev qemu-img
@@ -32,22 +27,33 @@ jobs:
         sudo -E apt-get clean
         df -hT
 
-    - name: Clone source code and plugins
-      env:
-        REPO_URL: https://github.com/openwrt/openwrt
-        REPO_BRANCH: v24.10.1
+    - name: Clone source code
       run: |
+        echo "🌐 克隆 OpenWrt 主仓库..."
+        git clone https://github.com/openwrt/openwrt -b v24.10.1 openwrt
+
+        echo "📦 克隆额外软件包..."
+        cd ./openwrt/package
+        git clone --depth 1 -b master https://github.com/vkingw/OpenClash.git
+        cd OpenClash && pushd luci-app-openclash/tools/po2lmo && make && sudo make install && popd
+        cd ..
         git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
         git clone https://github.com/vkingw/homeproxy.git
         git clone https://github.com/pexcn/openwrt-chinadns-ng.git
         git clone https://github.com/sirpdboy/luci-app-ddns-go.git
-        df -hT
-        du -sh ../..
+
+    - name: Verify source clone success
+      run: |
+        if [ ! -d "openwrt" ]; then
+          echo "❌ openwrt 源码目录不存在，克隆失败"
+          exit 1
+        fi
 
     - name: Update & Install feeds
       working-directory: ./openwrt
       run: |
         ./scripts/feeds update -a
+        ./scripts/feeds install -a
         ./scripts/feeds install -a
 
     - name: Configuration Customization - Build_x86_64
@@ -61,20 +67,20 @@ jobs:
       working-directory: ./openwrt
       run: |
         make download -j$(nproc)
+        find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
-        df -hT
-        du -sh dl
 
-    - name: Clean build cache
+    - name: Clean build cache before compiling
       working-directory: ./openwrt
       run: |
+        echo "🧼 执行 make dirclean 清理缓存..."
         make dirclean
         df -hT
 
     - name: Build firmware
       working-directory: ./openwrt
       run: |
-        echo -e "Using $(nproc) threads for build"
+        echo "🚀 开始构建... 使用 $(nproc) 核心"
         make -j$(nproc) V=s
         df -hT
         du -sh bin
@@ -83,7 +89,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: OpenWrt
-        path: |
-          openwrt/bin/targets/x86/64/*.img.gz
-          openwrt/bin/targets/x86/64/*.bin
-          openwrt/bin/packages/*/*.ipk
+        path: openwrt/bin
